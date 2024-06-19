@@ -1,0 +1,20 @@
+﻿@model Branch
+
+@{
+    ViewData["Title"] = "Branş Ekle";
+}
+
+<h2 class="my-4">Branş Ekle</h2>
+
+<form asp-action="AddBranch" method="post">
+    <div class="form-group">
+        <label>Branş No</label>
+        <input type="number" class="form-control" asp-for="Id" />
+    </div>
+    <div class="form-group">
+        <label>Branş Adı</label>
+        <input type="text" class="form-control" asp-for="Name" />
+    </div>
+    <br />
+    <button type="submit" class="btn btn-primary">Ekle</button>
+</form>
