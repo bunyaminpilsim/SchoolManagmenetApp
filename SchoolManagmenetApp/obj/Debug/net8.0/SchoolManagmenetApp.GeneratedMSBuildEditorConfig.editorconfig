@@ -46,6 +46,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXFBlcnNvbkxpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/BUNYAMIN PILSIM/source/repos/SchoolManagmenetApp/SchoolManagmenetApp/Views/Person/StudentList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXFN0dWRlbnRMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BUNYAMIN PILSIM/source/repos/SchoolManagmenetApp/SchoolManagmenetApp/Views/Person/TeacherList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXFRlYWNoZXJMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/BUNYAMIN PILSIM/source/repos/SchoolManagmenetApp/SchoolManagmenetApp/Views/Person/UpdatePerson.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXFVwZGF0ZVBlcnNvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -68,6 +76,18 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/BUNYAMIN PILSIM/source/repos/SchoolManagmenetApp/SchoolManagmenetApp/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BUNYAMIN PILSIM/source/repos/SchoolManagmenetApp/SchoolManagmenetApp/Views/StudentNote/AddStudentNote.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudE5vdGVcQWRkU3R1ZGVudE5vdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BUNYAMIN PILSIM/source/repos/SchoolManagmenetApp/SchoolManagmenetApp/Views/StudentNote/StudentNoteList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudE5vdGVcU3R1ZGVudE5vdGVMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BUNYAMIN PILSIM/source/repos/SchoolManagmenetApp/SchoolManagmenetApp/Views/StudentNote/UpdateStudentNote.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudE5vdGVcVXBkYXRlU3R1ZGVudE5vdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/BUNYAMIN PILSIM/source/repos/SchoolManagmenetApp/SchoolManagmenetApp/Views/_ViewImports.cshtml]

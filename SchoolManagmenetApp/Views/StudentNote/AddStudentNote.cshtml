@@ -1,0 +1,42 @@
+﻿@model StudentNote
+
+@{
+    ViewData["Title"] = "Öğrenci Notu Ekle";
+}
+
+<h2 class="my-4">Öğrenci Notu Ekle</h2>
+
+<form asp-action="AddStudentNote" method="post">
+    <div class="form-group">
+        <label>Öğrenci Not No</label>
+        <input type="number" class="form-control" asp-for="Id" />
+    </div>
+    <div class="form-group">
+        <label>Öğrenci Notu </label>
+        <input type="number" class="form-control" asp-for="Note" />
+    </div>
+    <div class="form-group">
+        <label>Branş Listesi</label>
+        <select class="form-control" asp-for="BranchId">
+            <option value="">Seçiniz</option>
+            @foreach (var branch in ViewBag.Branches)
+            {
+                <option value="@branch.Id">@branch.Name</option>
+            }
+           
+        </select>
+    </div>
+    <div class="form-group">
+        <label>Öğrenci Listesi</label>
+        <select class="form-control" asp-for="StudentId">
+            <option value="">Seçiniz</option>
+            @foreach (var student in ViewBag.Students)
+            {
+                <option value="@student.Id">@student.Name</option>
+
+            }
+        </select>
+    </div>
+    <br />
+    <button type="submit" class="btn btn-primary">Ekle</button>
+</form>

@@ -26,6 +26,17 @@ namespace SchoolManagmenetApp.Repositories
             return person;
         }
 
+        public List<Person> GetStudent()
+        {
+            var student = _persons.Where(x => x.Role.Name == "Öğrenci").ToList();
+            return student;
+        }
+        public List<Person> GetTeacher()
+        {
+            var teacher = _persons.Where(x => x.Role.Name == "Öğretmen").ToList();
+            return teacher;
+        }
+
         public void UpdatePerson(Person person)
         {
             var existingPerson=GetPersonById(person.Id);

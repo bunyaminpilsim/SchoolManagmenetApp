@@ -28,3 +28,4 @@ C:\Users\BUNYAMIN PILSIM\source\repos\SchoolManagmenetApp\SchoolManagmenetApp\ob
 C:\Users\BUNYAMIN PILSIM\source\repos\SchoolManagmenetApp\SchoolManagmenetApp\obj\Debug\net8.0\SchoolManagmenetApp.pdb
 C:\Users\BUNYAMIN PILSIM\source\repos\SchoolManagmenetApp\SchoolManagmenetApp\obj\Debug\net8.0\SchoolManagmenetApp.genruntimeconfig.cache
 C:\Users\BUNYAMIN PILSIM\source\repos\SchoolManagmenetApp\SchoolManagmenetApp\obj\Debug\net8.0\ref\SchoolManagmenetApp.dll
+C:\Users\BUNYAMIN PILSIM\source\repos\SchoolManagmenetApp\SchoolManagmenetApp\obj\Debug\net8.0\SchoolManagmenetApp.sourcelink.json

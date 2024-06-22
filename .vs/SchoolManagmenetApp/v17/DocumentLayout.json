@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\BUNYAMIN PILSIM\\source\\repos\\SchoolManagmenetApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4B2F3D16-35AE-4BA8-AB8C-A0ADB00CC708}|SchoolManagmenetApp\\SchoolManagmenetApp.csproj|c:\\users\\bunyamin pilsim\\source\\repos\\schoolmanagmenetapp\\schoolmanagmenetapp\\views\\person\\addperson.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4B2F3D16-35AE-4BA8-AB8C-A0ADB00CC708}|SchoolManagmenetApp\\SchoolManagmenetApp.csproj|solutionrelative:schoolmanagmenetapp\\views\\person\\addperson.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4B2F3D16-35AE-4BA8-AB8C-A0ADB00CC708}|SchoolManagmenetApp\\SchoolManagmenetApp.csproj|c:\\users\\bunyamin pilsim\\source\\repos\\schoolmanagmenetapp\\schoolmanagmenetapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B2F3D16-35AE-4BA8-AB8C-A0ADB00CC708}|SchoolManagmenetApp\\SchoolManagmenetApp.csproj|solutionrelative:schoolmanagmenetapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B2F3D16-35AE-4BA8-AB8C-A0ADB00CC708}|SchoolManagmenetApp\\SchoolManagmenetApp.csproj|c:\\users\\bunyamin pilsim\\source\\repos\\schoolmanagmenetapp\\schoolmanagmenetapp\\views\\person\\teacherlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B2F3D16-35AE-4BA8-AB8C-A0ADB00CC708}|SchoolManagmenetApp\\SchoolManagmenetApp.csproj|solutionrelative:schoolmanagmenetapp\\views\\person\\teacherlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B2F3D16-35AE-4BA8-AB8C-A0ADB00CC708}|SchoolManagmenetApp\\SchoolManagmenetApp.csproj|c:\\users\\bunyamin pilsim\\source\\repos\\schoolmanagmenetapp\\schoolmanagmenetapp\\controllers\\personcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B2F3D16-35AE-4BA8-AB8C-A0ADB00CC708}|SchoolManagmenetApp\\SchoolManagmenetApp.csproj|solutionrelative:schoolmanagmenetapp\\controllers\\personcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,14 +39,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AddPerson.cshtml",
-              "DocumentMoniker": "C:\\Users\\BUNYAMIN PILSIM\\source\\repos\\SchoolManagmenetApp\\SchoolManagmenetApp\\Views\\Person\\AddPerson.cshtml",
-              "RelativeDocumentMoniker": "SchoolManagmenetApp\\Views\\Person\\AddPerson.cshtml",
-              "ToolTip": "C:\\Users\\BUNYAMIN PILSIM\\source\\repos\\SchoolManagmenetApp\\SchoolManagmenetApp\\Views\\Person\\AddPerson.cshtml",
-              "RelativeToolTip": "SchoolManagmenetApp\\Views\\Person\\AddPerson.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAABKAAAA",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\BUNYAMIN PILSIM\\source\\repos\\SchoolManagmenetApp\\SchoolManagmenetApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "SchoolManagmenetApp\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\BUNYAMIN PILSIM\\source\\repos\\SchoolManagmenetApp\\SchoolManagmenetApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "SchoolManagmenetApp\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABYAAABxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-19T20:35:28.776Z",
+              "WhenOpened": "2024-06-22T19:22:06.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PersonController.cs",
+              "DocumentMoniker": "C:\\Users\\BUNYAMIN PILSIM\\source\\repos\\SchoolManagmenetApp\\SchoolManagmenetApp\\Controllers\\PersonController.cs",
+              "RelativeDocumentMoniker": "SchoolManagmenetApp\\Controllers\\PersonController.cs",
+              "ToolTip": "C:\\Users\\BUNYAMIN PILSIM\\source\\repos\\SchoolManagmenetApp\\SchoolManagmenetApp\\Controllers\\PersonController.cs",
+              "RelativeToolTip": "SchoolManagmenetApp\\Controllers\\PersonController.cs",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAiwFgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T19:09:05.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TeacherList.cshtml",
+              "DocumentMoniker": "C:\\Users\\BUNYAMIN PILSIM\\source\\repos\\SchoolManagmenetApp\\SchoolManagmenetApp\\Views\\Person\\TeacherList.cshtml",
+              "RelativeDocumentMoniker": "SchoolManagmenetApp\\Views\\Person\\TeacherList.cshtml",
+              "ToolTip": "C:\\Users\\BUNYAMIN PILSIM\\source\\repos\\SchoolManagmenetApp\\SchoolManagmenetApp\\Views\\Person\\TeacherList.cshtml",
+              "RelativeToolTip": "SchoolManagmenetApp\\Views\\Person\\TeacherList.cshtml",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAAADwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-22T13:10:08.226Z",
               "EditorCaption": ""
             }
           ]

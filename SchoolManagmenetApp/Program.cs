@@ -11,6 +11,7 @@ namespace SchoolManagmenetApp
             // Add services to the container.
             builder.Services.AddControllersWithViews();
             builder.Services.AddSingleton<IPersonRepository, PersonRepository>();
+            builder.Services.AddSingleton<IStudentNoteRepository, StudentNoteRepository>();
             builder.Services.AddSingleton<IRoleRepository, RoleRepository>(); builder.Services.AddSingleton<IBranchRepository, BranchRepository>();
 
             var app = builder.Build();

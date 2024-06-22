@@ -1,0 +1,37 @@
+﻿@model IEnumerable<StudentNote>
+
+@{
+    ViewData["Title"] = "Öğrenci Not Listesi";
+}
+
+<h2 class="my-4">Öğrenci Not Listesi</h2>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Numara</th>
+            <th>Branş</th>
+            <th>Öğrenci</th>
+            <th>Notu</th>
+            <th>İşlemler</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var studentNote in Model)
+        {
+            <tr>
+                <td>@studentNote.Id</td>
+                <td>@studentNote.Branch.Name</td>
+                <td>@studentNote.Person.Name</td>
+                <td>@studentNote.Note</td>
+
+
+                <td>
+                    <a href="/StudentNote/UpdateStudentNote?id=@studentNote.Id" class="btn btn-primary">Güncelle</a>
+                    <a href="/StudentNote/DeleteStudentNote?id=@studentNote.Id" class="btn btn-primary">Sil</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

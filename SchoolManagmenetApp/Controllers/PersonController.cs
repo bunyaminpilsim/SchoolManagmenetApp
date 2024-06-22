@@ -15,6 +15,7 @@ namespace SchoolManagmenetApp.Controllers
             _personRepository = personRepository;
             _roleRepository = roleRepository;
             _branchRepository = branchRepository;
+
         }
 
         public IActionResult AddPerson()
@@ -58,6 +59,34 @@ namespace SchoolManagmenetApp.Controllers
             var persons = _personRepository.GetAllPersons();
             return View(persons);
         }
+        public IActionResult StudentList()
+        {
+            ViewBag.Students = _personRepository.GetStudent();
+            var persons = _personRepository.GetStudent();
+            return View(persons);
+        }
+
+        //public IActionResult TeacherList()
+        //{
+        //    ViewBag.Teachers = _personRepository.GetTeacher();
+        //    var persons = _personRepository.GetTeacher();
+        //    return View(persons);
+        //}
+        public IActionResult TeacherList(int? branchId)
+        {
+            var teachers = _personRepository.GetTeacher();
+
+            if (branchId.HasValue)
+            {
+                teachers = teachers.Where(t => t.Branch.Id == branchId.Value).ToList();
+            }
+
+            ViewBag.Branches = _branchRepository.GetAllBranches();
+            ViewBag.SelectedBranch = branchId;
+
+            return View(teachers);
+        }
+
 
         public IActionResult DeletePerson(Person person)
         {

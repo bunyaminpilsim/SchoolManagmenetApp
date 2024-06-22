@@ -9,6 +9,8 @@ namespace SchoolManagmenetApp.Repositories
         void DeletePerson(Person person);
         Person GetPersonById(int id);
         List<Person> GetAllPersons();
+        List<Person> GetStudent();
+        List<Person> GetTeacher();
 
     }
 }
